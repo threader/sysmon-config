@@ -8,7 +8,7 @@
 
 	USE CASES: Debugging, Threat Research (which Sysmon events can be identified)
 -->
-<Sysmon schemaversion="4.81">
+<Sysmon schemaversion="4.83">
    <!-- Capture all hashes -->
    <HashAlgorithms>*</HashAlgorithms>
    <DnsLookup>False</DnsLookup>
