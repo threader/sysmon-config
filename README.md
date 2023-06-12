@@ -1,19 +1,23 @@
 # sysmon-config | A Sysmon configuration file
 
-This is a forked and modified version of @SwiftOnSecurity's [sysmon config](https://github.com/SwiftOnSecurity/sysmon-config).
+This is a forked and modified version of @SwiftOnSecurity's [sysmon config](https://github.com/SwiftOnSecurity/sysmon-config) and
+a modified version of Neo23x0's sysmon blocking config. This includes all pull requests, updated schema, and blocking rules.
 
-It started as a is simply copy of the original repository. We merged most of the 30+ open pull requests. Thus we have fixed many of the issues that are still present in the original version and extended the coverage with important new extensions.
 
 ## Maintainers of this Fork
+- VER1TAS @THE_VER1TAS
 
+## Maintainers of Neo23x0 Fork
 - Florian Roth @Neo23x0
 - Tobias Michalski @humpalum
 - Christian Burkard @phantinuss
 - Nasreddine Bencherchali @nas_bench
+- 
 
 ## Additional coverage includes
 
 - Cobalt Strike named pipes
+- Sliver Implants
 - PrinterNightmare
 - HiveNightmare
 
@@ -24,6 +28,7 @@ This repo includes the original and two additional configurations
 - `sysmonconfig-export.xml` the original config provided by @SwiftOnSecurity
 - `sysmonconfig-export-block.xml` the original config provided by @SwiftOnSecurity with some basic blocking rules usable since Sysmon v14 (WARNING: use it with care!)
 - `sysmonconfig-trace.xml` a config by @Cyb3rWard0g that logs just everything with a few examples for debugging or threat research purposes
+- 'sysmonconfig-export-block-loldrivers.xml' merged with https://github.com/magicsword-io/LOLDrivers to block Living Off The Land Drivers
 
 ## Other Sysmon Configs
 
