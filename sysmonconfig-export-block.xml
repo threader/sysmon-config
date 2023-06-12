@@ -1536,5 +1536,13 @@
 		<!--EVENT 28: "File Block Shredding"-->
 		<!--COMMENT: This event is generated when Sysmon detects and blocks file shredding from tools such as SDelete.-->
 		
+	<RuleGroup name="" groupRelation="or">
+		<FileBlockShredding onmatch="include">
+			<Image condition="image">sdelete.exe</Image>
+			<Image condition="image">sdelete64.exe</Image>
+			<Image condition="image">sdelete64a.exe</Image>
+		</FileBlockShredding>
+	</RuleGroup>
+		
 	</EventFiltering>
 </Sysmon>
