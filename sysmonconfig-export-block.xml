@@ -6,11 +6,12 @@
 	WARNING: THIS CONFIG INCLUDES BLOCKING RULES THAT MAY CAUSE ISSUES ENDSYSTEMS!
 	         Test this configuration intensively before using it on productive systems
 
-	LAST CHANGE: 04.12.2022
+	LAST CHANGE: 06.12.2023
 
-	REQUIRED: Sysmon version 14 or higher (due to changes in syntax and bug-fixes)
-		https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon
--->
+	FORKED FROM: Florian Roth @Neo23x0
+
+	REQUIRED: Sysmon version 14.16 or higher (due to changes in syntax and bug-fixes)
+		https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon-->
 
 <Sysmon schemaversion="4.83">
 	<!--SYSMON META CONFIG-->
@@ -1530,8 +1531,7 @@
 			<Image condition="image">mspaint.exe</Image>
 		</FileBlockExecutable>
 	</RuleGroup>
-	
-	
+		
 	<!--SYSMON EVENT ID 28 : FILE BLOCK SHREDDING [FileBlockShredding]-->
 		<!--EVENT 28: "File Block Shredding"-->
 		<!--COMMENT: This event is generated when Sysmon detects and blocks file shredding from tools such as SDelete.-->
