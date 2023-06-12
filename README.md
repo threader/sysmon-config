@@ -1,8 +1,6 @@
 # sysmon-config | A Sysmon configuration file
-
 This is a forked and modified version of @SwiftOnSecurity's [sysmon config](https://github.com/SwiftOnSecurity/sysmon-config) and
-a modified version of Neo23x0's sysmon blocking config. This includes all pull requests, updated schema, and blocking rules.
-
+a modified version of Neo23x0's [sysmon blocking config](https://github.com/Neo23x0/sysmon-config). This includes all pull requests, updated schema, and blocking rules.
 
 ## Maintainers of this Fork
 - VER1TAS @THE_VER1TAS
@@ -12,10 +10,8 @@ a modified version of Neo23x0's sysmon blocking config. This includes all pull r
 - Tobias Michalski @humpalum
 - Christian Burkard @phantinuss
 - Nasreddine Bencherchali @nas_bench
-- 
-
+  
 ## Additional coverage includes
-
 - Cobalt Strike named pipes
 - Sliver Implants
 - PrinterNightmare
