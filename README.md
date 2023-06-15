@@ -1,12 +1,12 @@
 # sysmon-config | A Sysmon configuration file
 This is a forked and modified version of @SwiftOnSecurity's [sysmon config](https://github.com/SwiftOnSecurity/sysmon-config) and
-a modified version of Neo23x0's [sysmon blocking config](https://github.com/Neo23x0/sysmon-config). This includes all pull requests, updated schema, and additional blocking rules.
+a modified version of Neo23x0's [sysmon blocking config](https://github.com/Neo23x0/sysmon-config). This includes all pull requests, updated schema, and additional blocking rules. The `sysmonconfig-export-block-loldrivers.xml` includes a curated list of Living Off The Land Windows drivers used by adversaries to bypass security controls and carry out attacks [https://www.loldrivers.io/]. 
 
 ## Maintainers of this Fork
-- VER1TAS @THE_VER1TAS
+- VER1TAS [@THE_VER1TAS](https://twitter.com/THE_VER1TAS)
 
 ## Maintainers of Neo23x0 Fork
-- Florian Roth @Neo23x0
+- Florian Roth [@Neo23x0](https://twitter.com/cyb3rops)
 - Tobias Michalski @humpalum
 - Christian Burkard @phantinuss
 - Nasreddine Bencherchali @nas_bench
@@ -18,8 +18,7 @@ a modified version of Neo23x0's [sysmon blocking config](https://github.com/Neo2
 - HiveNightmare
 
 ## Configs in this Repository
-
-This repo includes the original and two additional configurations
+This repo includes the original and three additional configurations
 
 - `sysmonconfig-export.xml` the original config provided by @SwiftOnSecurity
 - `sysmonconfig-export-block.xml` the original config provided by @SwiftOnSecurity with some basic blocking rules usable since Sysmon v14 (WARNING: use it with care!)
@@ -27,22 +26,17 @@ This repo includes the original and two additional configurations
 - `sysmonconfig-export-block-loldrivers.xml` merged with https://github.com/magicsword-io/LOLDrivers to block Living Off The Land Drivers
 
 ## Other Sysmon Configs
-
 - Olaf Hartong's [Sysmon Modular](https://github.com/olafhartong/sysmon-modular) - modular Sysmon config for easier maintenance and generation of specific configs
 
 ## Testing
-
-This configuration is focused on detection coverage. We have only one rather small testing environment to avoid problematic expressions that trigger too often. It is recommended to test the downloaded configuration on a small set of systems in your environment in any case.
-
-## Feedback
-
-Since we don't have more than one environment to test the config ourselves, we rely on feedback from the community.
+This configuration is focused on detection coverage and blocking rules. I need help with testing this configuration, so please reach out!
 
 Please report:
 
 1. Expressions that cause a high volume of events
-2. Broken configuration elements (typos, wrong conditions)
-3. Missing coverage (preferrably as a pull request)
+2. Blocking issues or missing elements
+3. Broken configuration elements (typos, wrong conditions)
+4. Missing coverage (preferrably as a pull request)
 
 ## Usage
 
