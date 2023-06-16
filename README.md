@@ -23,7 +23,7 @@ This repo includes the original and three additional configurations
 - `sysmonconfig-export.xml` the original config provided by @SwiftOnSecurity
 - `sysmonconfig-export-block.xml` the original config provided by @SwiftOnSecurity with some basic blocking rules usable since Sysmon v14 (WARNING: use it with care!)
 - `sysmonconfig-trace.xml` a config by @Cyb3rWard0g that logs just everything with a few examples for debugging or threat research purposes
-- `sysmonconfig-export-block-loldrivers.xml` merged with https://github.com/magicsword-io/LOLDrivers to block Living Off The Land Drivers
+- `sysmonconfig-export-block-loldrivers.xml` merged with https://github.com/magicsword-io/LOLDrivers to block Living Off The Land Drivers (This could cause your system to lock up if these drivers are present)
 
 ## Other Sysmon Configs
 - Olaf Hartong's [Sysmon Modular](https://github.com/olafhartong/sysmon-modular) - modular Sysmon config for easier maintenance and generation of specific configs
