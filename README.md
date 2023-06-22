@@ -1,15 +1,15 @@
 # sysmon-config | A Sysmon configuration file
-This is a forked and modified version of @SwiftOnSecurity's [sysmon config](https://github.com/SwiftOnSecurity/sysmon-config) and
-a modified version of Neo23x0's [sysmon blocking config](https://github.com/Neo23x0/sysmon-config). This includes all pull requests, updated schema, and additional blocking rules. The `sysmonconfig-export-block-loldrivers.xml` includes a curated list of Living Off The Land Windows drivers used by adversaries to bypass security controls and carry out attacks [https://www.loldrivers.io/]. 
+This is a forked and modified version of [@SwiftOnSecurity's](https://twitter.com/SwiftOnSecurity) [sysmon config](https://github.com/SwiftOnSecurity/sysmon-config) and
+a modified version of Neo23x0's [sysmon blocking config](https://github.com/Neo23x0/sysmon-config). This includes all pull requests, updated schema, and additional blocking rules. The `sysmonconfig-export-block-loldrivers.xml` includes a curated list of malicious Living Off The Land Windows drivers used by adversaries to bypass security controls and carry out attacks [https://www.loldrivers.io/]. 
 
 ## Maintainers of this Fork
 - VER1TAS [@THE_VER1TAS](https://twitter.com/THE_VER1TAS)
 
 ## Maintainers of Neo23x0 Fork
 - Florian Roth [@Neo23x0](https://twitter.com/cyb3rops)
-- Tobias Michalski @humpalum
-- Christian Burkard @phantinuss
-- Nasreddine Bencherchali @nas_bench
+- Tobias Michalski [@humpalum](https://twitter.com/_humpalum)
+- Christian Burkard [@phantinuss](https://twitter.com/phantinuss)
+- Nasreddine Bencherchali [@nas_bench](https://twitter.com/nas_bench)
   
 ## Additional coverage includes
 - Cobalt Strike named pipes
