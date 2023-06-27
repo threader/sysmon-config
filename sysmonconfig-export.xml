@@ -4,7 +4,7 @@
 	Source project:	https://github.com/SwiftOnSecurity/sysmon-config
 	Source license:	Creative Commons Attribution 4.0 | You may privatize, fork, edit, teach, publish, or deploy for commercial use - with attribution in the text.
 
-	REQUIRED: Sysmon version 13 or higher (due to changes in syntax and bug-fixes)
+	REQUIRED: Sysmon version 15.0 or higher (due to changes in syntax and bug-fixes)
 		https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon
 
 	NOTE: To collect Sysmon logs centrally for free, see https://aka.ms/WEF | Command to allow log access to the Network Service:
@@ -52,7 +52,6 @@
 
 	FILTERING: Filter conditions available for use are: is,is not,contains,contains any,contains all,excludes,excludes any,excludes all,begin with,end with,less than,more than,image
 	- The "image" filter is usable on any field. Same as "is" but can either match entire string, or only the text after last "\". Credit: @mattifestation
-
 -->
 
 <Sysmon schemaversion="4.83">
@@ -1379,12 +1378,25 @@
 		-->
 
 		<!--DATA: RuleName, UtcTime, ProcessGuid, ProcessId, User, Image, TargetFilename, Hashes, IsExecutable -->
-
+		
+	<!--SYSMON EVENT ID 27 : FILE BLOCK [FileBlockExecutable]-->
+		<!--EVENT 27: "File Block Executable"-->
+		<!--COMMENT:	This event is generated when an executable gets blocked
+			[ https://medium.com/@olafhartong/sysmon-14-0-fileblockexecutable-13d7ba3dff3e ]
+		-->	
+	<!--SYSMON EVENT ID 28 : FILE BLOCK SHREDDING [FileBlockShredding]-->
+		<!--EVENT 28: "File Block Shredding"-->
+		<!--COMMENT: This event is generated when Sysmon detects and blocks file shredding from tools such as SDelete.-->
+				
+	<!--SYSMON EVENT ID 29 : FILE EXECUTABLE DETECTED [FileExecutableDetected]-->
+		<!--EVENT 29: "File Executable Detected"-->
+		<!--COMMENT: This event is generated when Sysmon detects the creation of a new executable file (PE format).-->
+		
 	<!--SYSMON EVENT ID 255 : ERROR-->
 		<!--"This event is generated when an error occurred within Sysmon. They can happen if the system is under heavy load
 			and certain tasked could not be performed or a bug exists in the Sysmon service. You can report any bugs on the
 			Sysinternals forum or over Twitter (@markrussinovich)."-->
 		<!--Cannot be filtered.-->
-
+		
 	</EventFiltering>
 </Sysmon>
