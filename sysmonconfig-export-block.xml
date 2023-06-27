@@ -1546,6 +1546,10 @@
 			<Image condition="image">sdelete64a.exe</Image>
 		</FileBlockShredding>
 	</RuleGroup>
-		
+				
+	<!--SYSMON EVENT ID 29 : FILE EXECUTABLE DETECTED [FileExecutableDetected]-->
+		<!--EVENT 29: "File Executable Detected"-->
+		<!--COMMENT: This event is generated when Sysmon detects the creation of a new executable file (PE format).-->
+			
 	</EventFiltering>
 </Sysmon>
