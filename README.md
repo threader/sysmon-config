@@ -24,9 +24,9 @@ The configuration file are for Sysmon 15.0 and newer. Schema version is 4.90 and
 This repo includes the original and three additional configurations
 
 - `sysmonconfig-export.xml` the original config provided by @SwiftOnSecurity
-- `sysmonconfig-export-block.xml` the original config provided by @SwiftOnSecurity with some basic blocking rules usable since Sysmon v14 (WARNING: use it with care!)
-- `sysmonconfig-trace.xml` a config by @Cyb3rWard0g that logs just everything with a few examples for debugging or threat research purposes
-- `sysmonconfig-export-block-loldrivers.xml` merged with https://github.com/magicsword-io/LOLDrivers to block Living Off The Land Drivers (This could cause your system to lock up if these drivers are present)
+- `sysmonconfig-export-block.xml` the original config provided by @Neo23x0 with some additional advanced blocking rules available since Sysmon v14 (WARNING: use it with care!)
+- `sysmonconfig-export-block-loldrivers.xml` merged with [@magicsword-io LOLDrivers](https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_malicious_hashes_block.xml) to block Living Off The Land Drivers (WARNING: use it with care!)
+- `sysmonconfig-malicious-hashes-exe-detect.xml` builds upon @Neo23x0' config by incorporating the newest features in Sysmon 15.0 and merging [@magicsword-io LOLDrivers](https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_malicious_hashes_exe_detect.xml) for EventID 29.
 
 ## Other Sysmon Configs
 - Olaf Hartong's [Sysmon Modular](https://github.com/olafhartong/sysmon-modular) - modular Sysmon config for easier maintenance and generation of specific configs
