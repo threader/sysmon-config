@@ -12,10 +12,10 @@
 
 	FORKED FROM: Florian Roth @Neo23x0
 
-	REQUIRED: Sysmon version 14.16 or higher (due to changes in syntax and bug-fixes)
+	REQUIRED: Sysmon version 15.0 or higher (due to changes in syntax and bug-fixes)
 		https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon-->
 
-<Sysmon schemaversion="4.83">
+<Sysmon schemaversion="4.90">
 	<!--SYSMON META CONFIG-->
 	<HashAlgorithms>md5,sha256,IMPHASH</HashAlgorithms> <!-- Both MD5 and SHA256 are the industry-standard algorithms. Remove IMPHASH if you do not use DLL import fingerprinting. -->
 	<CheckRevocation/> <!-- Check loaded drivers, log if their code-signing certificate has been revoked, in case malware stole one to sign a kernel driver -->
