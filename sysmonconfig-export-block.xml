@@ -6,7 +6,7 @@
 	WARNING: THIS CONFIG INCLUDES BLOCKING RULES THAT MAY CAUSE ISSUES ENDSYSTEMS!
 	         Test this configuration intensively before using it on productive systems
 
-	LAST CHANGE: 06.27.2023
+	LAST CHANGE: 07.24.2023
 
 	MAINTAINED BY: 	@THE_VER1TAS 
 
@@ -1491,8 +1491,9 @@
 			<Hashes condition="contains">IMPHASH=96DF3A3731912449521F6F8D183279B1</Hashes> <!-- Backstab -->
 			<Hashes condition="contains">IMPHASH=7E6CF3FF4576581271AC8A313B2AAB46</Hashes> <!-- Backstab -->
 			<Hashes condition="contains">IMPHASH=51791678F351C03A0EB4E2A7B05C6E17</Hashes> <!-- Backstab -->
-			<Hashes condition="contains">MD5=7B17F15713FCF13C764535AA2BDF52AA</Hashes>	<!-- ShaprEvtMute -->
-			<Hashes condition="contains">SHA1=4E18320493042BCD7D21B53E258974BC460ACC78</Hashes>	<!-- ShaprEvtMute -->
+			<Hashes condition="contains">IMPHASH=25CE42B079282632708FC846129E98A5</Hashes> <!-- Forensia -->
+			<Hashes condition="contains">MD5=7B17F15713FCF13C764535AA2BDF52AA</Hashes>					<!-- ShaprEvtMute -->
+			<Hashes condition="contains">SHA1=4E18320493042BCD7D21B53E258974BC460ACC78</Hashes>				<!-- ShaprEvtMute -->
 			<Hashes condition="contains">SHA256=477DFE485F5BD9540CC83E88FC04AAFB6DE49CF1ADC6BD857D5D6F4C1730A6D1</Hashes>	<!-- ShaprEvtMute -->
 			<Hashes condition="contains">IMPHASH=F0EA7B7844BBC5BFA9BB32EFDCEA957C</Hashes>	<!-- Sliver Implant -->
 			<Hashes condition="contains">IMPHASH=9CBEFE68F395E67356E2A5D8D1B285C0</Hashes> 	<!-- Sliver Implant -->
