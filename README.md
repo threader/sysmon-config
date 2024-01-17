@@ -3,7 +3,7 @@ This is a forked and modified version of [@SwiftOnSecurity's](https://twitter.co
 a modified version of Neo23x0's [sysmon blocking config](https://github.com/Neo23x0/sysmon-config). This includes all pull requests, updated schema, and additional blocking rules. The `sysmonconfig-export-block-loldrivers.xml` builds upon Neo23x0's config by also including a curated blocking list of malicious [Living Off The Land Windows](https://www.loldrivers.io/) drivers used by adversaries to bypass security controls and carry out attacks.
 
 ## Version & Schema
-The configuration file are for Sysmon 15.0 and newer. Schema version is 4.90 and the binary version is now 18.
+The configuration files are for Sysmon 15.0 and newer. Schema version is 4.90 and the binary version is now 18.
 
 ## Maintainers of this Fork
 - VER1TAS [@THE_VER1TAS](https://twitter.com/THE_VER1TAS)
