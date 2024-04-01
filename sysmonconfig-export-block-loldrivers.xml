@@ -1552,7 +1552,8 @@
 			
 			<!--LOLDrivers - Living Off The Land Drivers --> 
 			<!--https://https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_malicious_hashes_block.xml -->
-			<Hashes condition="contains">MD5=48394dce30bb8da5ae089cb8f41b86dc</Hashes>
+			<Hashes condition="contains">MD5=f56db4eba3829c0918413b5c0b42f00f</Hashes>
+	                <Hashes condition="contains">MD5=48394dce30bb8da5ae089cb8f41b86dc</Hashes>
 			<Hashes condition="contains">MD5=32b67a6cd6dd998b9f563ed13d54a8bc</Hashes>
 			<Hashes condition="contains">MD5=24f0f2b4b3cdae11de1b81c537df41c7</Hashes>
 			<Hashes condition="contains">MD5=990b949894b7dc82a8cf1131b063cb1a</Hashes>
