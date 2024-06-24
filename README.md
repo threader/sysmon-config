@@ -24,8 +24,8 @@ The configuration files are for Sysmon 15.0 and newer. Schema version is 4.90 an
 This repo includes the original and three additional configurations
 
 - `sysmonconfig-export.xml` the "OG" config provided by @SwiftOnSecurity
+- `sysmonconfig-export-block-loldrivers.xml` merged with [@magicsword-io LOLDrivers](https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_malicious_hashes_block.xml) to block Living Off The Land   Drivers (Malicious Hashes Only) using EventID 27.
 - `sysmonconfig-export-block.xml` the original config provided by @Neo23x0 with some additional advanced blocking rules available since Sysmon v14 (WARNING: use it with care!)
-- `sysmonconfig-export-block-loldrivers.xml` merged with [@magicsword-io LOLDrivers](https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_malicious_hashes_block.xml) to block Living Off The Land   Drivers (WARNING: use it with care!) using EventID 27.
 - `sysmonconfig-malicious-hashes-exe-detect.xml` builds upon @Neo23x0's config by incorporating the newest features in Sysmon 15.0 and merging [@magicsword-io LOLDrivers](https://github.com/magicsword-io/LOLDrivers/blob/main/detections/sysmon/sysmon_config_malicious_hashes_exe_detect.xml) for EventID 29. This is similar to the `sysmonconfig-export-block-loldrivers.xml` config but does not include blocking, only detection.
 
 ## Other Sysmon Configs
