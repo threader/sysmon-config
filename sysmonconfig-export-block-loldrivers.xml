@@ -270,9 +270,9 @@
 			<Image condition="image">net1.exe</Image> <!--Windows: Launched by "net.exe", but it may not detect connections either -->
 			<Image condition="image">notepad.exe</Image> <!--Windows: [ https://secrary.com/ReversingMalware/CoinMiner/ ] [ https://blog.cobaltstrike.com/2013/08/08/why-is-notepad-exe-connecting-to-the-internet/ ] -->
 			<Image condition="image">nslookup.exe</Image> <!--Windows: Retrieve data over DNS -->
-			<Image condition="image">pwsh.exe</Image> <!--Windows: PowerShell 7 -->
-			<Image condition="image">powershell.exe</Image> <!--Windows: PowerShell interface-->
-			<Image condition="image">powershell_ise.exe</Image> <!--Windows: PowerShell interface-->
+			<!-- <Image condition="image">pwsh.exe</Image> --> <!--Windows: PowerShell 7 -->
+			<!-- <Image condition="image">powershell.exe</Image> --> <!--Windows: PowerShell interface-->
+			<!-- <Image condition="image">powershell_ise.exe</Image> --> <!--Windows: PowerShell interface-->
 			<Image condition="image">qprocess.exe</Image> <!--Windows: [ https://www.first.org/resources/papers/conf2017/APT-Log-Analysis-Tracking-Attack-Tools-by-Audit-Policy-and-Sysmon.pdf ] -->
 			<Image condition="image">qwinsta.exe</Image> <!--Windows: Remotely query login sessions on a server or workstation | Credit @ion-storm -->
 			<Image condition="image">reg.exe</Image> <!--Windows: Remote Registry editing ability | Credit @ion-storm -->
@@ -286,10 +286,10 @@
 			<Image condition="image">tasklist.exe</Image> <!--Windows: List processes, has remote ability -->
 			<Image condition="image">wmic.exe</Image> <!--WindowsManagementInstrumentation: Credit @Cyb3rOps [ https://gist.github.com/Neo23x0/a4b4af9481e01e749409 ] -->
 			<Image condition="image">wscript.exe</Image> <!--WindowsScriptingHost: | Credit @arekfurt -->
-			<Image condition="image">mstsc.exe</Image>
-			<Image condition="image">wsl.exe</Image>
-			<Image condition="image">winget.exe</Image>
-			<Image condition="image">WindowsTerminal.exe</Image>
+			<Image condition="image">mstsc.exe</Image> 
+		<!--	<Image condition="image">wsl.exe</Image> -->
+		<!--	<Image condition="image">winget.exe</Image> -->
+		<!--	<Image condition="image">WindowsTerminal.exe</Image> -->
 			<Image condition="image">wt.exe</Image>
 			<Image condition="image">winlogon.exe</Image>
 			<!--Live of the Land Binaries and scripts (LOLBAS) -->
